@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('galaxy.png')no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration-line: underline;
+}
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+  border: chartreuse;
+  margin-right: 10px;
+  margin-left: 600px;
+  border-color: rgb(231, 155, 155);
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: rgb(254, 244, 244);
+  margin-left: 500px;
+  background-color: rgb(14, 133, 133);
+  margin-right: 300px;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 9px;
+}
+.task {
+  flex-grow: 1;
+}
+
+.delete {
+  background-color: white;
+  color: rgb(190, 3, 3);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 600px;
+  position: fixed;
+}
